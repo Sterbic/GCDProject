@@ -10,7 +10,7 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 
 ## Columns
 
-Description of the column of the output file `tidy-dataset-avg.txt` of the `run_analysis.R` script.
+Description of the columns of the output file `tidy-dataset-avg.txt` obtained by running the `run_analysis.R` script.
 
 - The first two columns:
     - **subject**: integer ID of the subject that performed the action
