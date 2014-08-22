@@ -63,6 +63,10 @@ labels = read.table(labels.path, col.names = c("id", "activity"))
 dataset = merge(dataset, labels, by.x = "label.id", by.y = "id")
 dataset = dataset[, -which("label.id" %in% names(dataset))]
 
+# Write to file
+
+write.table(dataset, "tidy-dataset.txt", row.names = FALSE)
+
 # Summarize by subject and activity
 
 dataset.mean = aggregate(
@@ -73,6 +77,6 @@ dataset.mean = aggregate(
 
 colnames(dataset.mean)[1:2] = c("subject", "activity")
 
-# Write to file
+# Write summary to file
 
-write.table(dataset.mean, "tidy-dataset.txt", row.names = FALSE)
+write.table(dataset.mean, "tidy-dataset-avg.txt", row.names = FALSE)
