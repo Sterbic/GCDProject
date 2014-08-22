@@ -1,3 +1,4 @@
+<div class="align-justify">
 # GCDProject
 
 Repository for the [Getting and Cleaning Data][1] Coursera project.
@@ -26,3 +27,5 @@ An independent data set with the average of each feature for each activity and e
 
 [1]: https://www.coursera.org/course/getdata "Getting and Cleaning Data"
 [2]: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones "Human Activity Recognition Using Smartphones Data Set"
+
+</div>
