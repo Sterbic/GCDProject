@@ -1,6 +1,6 @@
 # GCDProject
 
-Repository for the Getting and Cleaning Data Coursera project.
+Repository for the [Getting and Cleaning Data] Coursera project.
 
 ## Run
 
@@ -24,4 +24,5 @@ Numeric activity IDs are removed in favor of descriptive activity identifiers (e
 
 An independent data set with the average of each feature for each activity and each subject is computed and saved to `tidy-dataset-avg.txt`. 
 
-[1]: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones "Human Activity Recognition Using Smartphones Data Set"
+[1]: https://www.coursera.org/course/getdata "Getting and Cleaning Data"
+[2]: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones "Human Activity Recognition Using Smartphones Data Set"
