@@ -1,6 +1,6 @@
 # GCDProject
 
-Repository for the [Getting and Cleaning Data] Coursera project.
+Repository for the [Getting and Cleaning Data][1] Coursera project.
 
 ## Run
 
@@ -14,7 +14,7 @@ See `CodeBook.md` for details.
 
 ## Description
 
-The script will download and unzip the [Human Activity Recognition Using Smartphones Data Set][1] into the `data` directory. The zip archive is deleted after decompression.
+The script will download and unzip the [Human Activity Recognition Using Smartphones Data Set][2] into the `data` directory. The zip archive is deleted after decompression.
 
 Both train and test data sets are read into R and merged into one table. At this point the table contains subject IDs, activity IDs and a set of 561 numeric features.
 
